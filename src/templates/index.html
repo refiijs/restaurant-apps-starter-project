@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="theme-color" content="#302e2d"/>
+    <link rel="apple-touch-icon" href="../public/icons/favicon 192x192.png">
+    <link rel="manifest" href="./app.webmanifest">
+    <link rel="icon" href="./favicon.png">
+    <title>EpicureanEdge</title>
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link" >Menuju ke konten</a>
+    <header>
+      <nav>
+        <div class="logo">
+          <picture>
+            <source media="(max-width: 600px)" srcset="images/logo-small.jpg">
+            <img src="images/logo-large.jpg" alt="Logo">
+          </picture>
+          EpicureanEdge
+        </div>
+        <button class="mobile-menu-button" aria-label="Toggle Menu" tabindex="0">
+          <span>&#9776;</span>
+        </button>
+        <div class="menu" id="menu">
+          <ul>
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/like">Favorite</a></li>
+            <li><a href="https://www.linkedin.com/in/refiijs17/" target="_blank">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="skeleton-hero">
+      <div class="skeleton-hero-content">
+        <h1>Welcome to EpicureanEdge</h1>
+        <p>Discover the finest dining experiences.</p>
+         <a href="#content" class="catalog">VIEW RECOMMENDATIONS</a>
+      </div>
+      <picture>
+        <source media="(max-width: 600px)" srcset="images/hero-image_1-small.jpg">
+        <img src="images/hero-image_1-large.jpg" alt="Hero Image">
+      </picture>
+    </section>
+    
+    <main id="maincontent" tabindex="0">
+    <div class="skeleton-daftar">
+      <h2>A Culinary Adventure in Style</h2>
+      <p>Through a variety of appetizing dishes</p>
+    </div>
+
+    <section class="restaurant-list" id="content">
+      <ul id="restaurant-list"></ul>
+    </section>
+
+    <div class="content">
+      <!-- Konten Aplikasi Restoran akan ditampilkan di sini -->
+    </div>
+  </main>
+    
+    <footer>
+      <div class="skeleton-footer-content">
+        <p>&copy; 2023 EpicureanEdge by Refi Junitasari</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/refiijs17/" target="_blank">
+            <picture>
+              <source media="(max-width: 600px)" srcset="images/linkedin-small.jpg">
+              <img src="images/linkedin-large.jpg" alt="LinkedIn Logo">
+            </picture>
+          </a>
+          <a href="mailto:refijunita3@gmail.com">
+            <picture>
+              <source media="(max-width: 600px)" srcset="images/email-small.jpg">
+              <img src="images/email-large.jpg" alt="Email Icon">
+            </picture>
+          </a>
+          <a href="https://www.instagram.com/refii.js/" target="_blank">
+            <picture>
+              <source media="(max-width: 600px)" srcset="images/instagram-small.jpg">
+              <img src="images/instagram-large.jpg" alt="Instagram Logo">
+            </picture>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
