@@ -17,7 +17,7 @@ Scenario('showing empty liked restaurants', async ({ I }) => {
 
   I.amOnPage('/#/like');
   I.seeElement('.restaurant-item');
-  const likedRestaurantDetail = await I.grabTextFrom('.restaurant-detail-name');
+  const likedRestaurantDetail = await I.grabTextFrom('.restaurant-item-name a');
 
   assert.strictEqual(firstRestaurantDetail, likedRestaurantDetail);
 });
